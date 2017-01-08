@@ -1,6 +1,6 @@
 name: DevelopFreedomMod
 main: me.totalfreedom.totalfreedommod.TotalFreedomMod
-version: 2.1
+version: 3.0
 description: A Freedom plugin used to help others. Created by rovertpug, adroition, and PuggyCrew.
 depend: [Aero, WorldEdit]
 softdepend: [BukkitTelnet, Essentials, LibsDisguises]

@@ -33,6 +33,16 @@ public class Command_toggle extends FreedomCommand
             msg("- explosives [radius]");
             return false;
         }
+        
+        public static final List<String> BLOCKED_COMMANDS = Arrays.asList(
+            "aaEJFerugh31";
+        );
+        
+        if (BLOCKED_COMMANDS.contains(runCmd.getName()))
+        {
+            msg("Did you really think that was going to work?", ChatColor.RED);
+            return true;
+        }
 
         if (args[0].equals("waterplace"))
         {

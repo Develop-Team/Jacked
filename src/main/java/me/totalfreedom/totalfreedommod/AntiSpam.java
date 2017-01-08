@@ -81,8 +81,9 @@ public class AntiSpam extends FreedomService
         // Check for message repeat
         if (playerdata.getLastMessage().equalsIgnoreCase(message))
         {
-            FSync.playerMsg(player, "Please do not repeat messages.");
-            event.setCancelled(true);
+            checkRank(!Rank.SUPER_ADMIN);
+                FSync.playerMsg(player, "Please do not repeat messages.");
+                event.setCancelled(true);
             return;
         }
 
