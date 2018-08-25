@@ -4,7 +4,7 @@
 rovertdude  
 
 ### Project Lead: ###
-PezTez  
+adroition  
 
 ### Project Administrators: ###
 
@@ -14,7 +14,7 @@ PuggyCrew
 ### In Review: ###
 
 ### Past Staff: ###
-adroition  
+PezTez  
 
 ### Develop-Team Members: ###
 rovertdude  
