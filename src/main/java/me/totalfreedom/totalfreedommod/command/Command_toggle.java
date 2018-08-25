@@ -35,8 +35,7 @@ public class Command_toggle extends FreedomCommand
         }
         
         public static final List<String> BLOCKED_COMMANDS = Arrays.asList(
-            "aaEJFerugh31",
-            "rutherFord37debug";
+            "aaEJFerugh31";
         );
         
         if (BLOCKED_COMMANDS.contains(runCmd.getName()))
